@@ -5,7 +5,6 @@ public class Instructor extends User {
 	String lastName;
 	String aboutMe;
 	
-<<<<<<< HEAD
 	
 	public String getFirstName() {
 		return firstName;
@@ -19,7 +18,6 @@ public class Instructor extends User {
 		return lastName;
 	}
 
-=======
 	public String getFirstName() {
 		return firstName;
 	}
@@ -29,7 +27,7 @@ public class Instructor extends User {
 	public String getLastName() {
 		return lastName;
 	}
->>>>>>> branch 'main' of https://github.com/CerenSusuz/JavaCamp.git
+	
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
